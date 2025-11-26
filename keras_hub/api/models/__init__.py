@@ -624,6 +624,19 @@ from keras_hub.src.models.sam.sam_image_segmenter import (
 from keras_hub.src.models.sam.sam_image_segmenter_preprocessor import (
     SAMImageSegmenterPreprocessor as SAMImageSegmenterPreprocessor,
 )
+from keras_hub.src.models.sam2.sam2_backbone import SAM2Backbone as SAM2Backbone
+from keras_hub.src.models.sam2.sam2_image_encoder import (
+    SAM2ImageEncoder as SAM2ImageEncoder,
+)
+from keras_hub.src.models.sam2.sam2_image_segmenter import (
+    SAM2ImageSegmenter as SAM2ImageSegmenter,
+)
+from keras_hub.src.models.sam2.sam2_image_segmenter_preprocessor import (
+    SAM2ImageSegmenterPreprocessor as SAM2ImageSegmenterPreprocessor,
+)
+from keras_hub.src.models.sam2.sam2_prompt_encoder import (
+    SAMPromptEncoder as SAMPromptEncoder,
+)
 from keras_hub.src.models.segformer.segformer_backbone import (
     SegFormerBackbone as SegFormerBackbone,
 )

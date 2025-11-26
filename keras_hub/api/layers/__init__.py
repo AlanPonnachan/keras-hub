@@ -138,6 +138,18 @@ from keras_hub.src.models.sam.sam_mask_decoder import (
 from keras_hub.src.models.sam.sam_prompt_encoder import (
     SAMPromptEncoder as SAMPromptEncoder,
 )
+from keras_hub.src.models.sam2.sam2_image_converter import (
+    SAM2ImageConverter as SAM2ImageConverter,
+)
+from keras_hub.src.models.sam2.sam2_mask_decoder import (
+    SAM2MaskDecoder as SAM2MaskDecoder,
+)
+from keras_hub.src.models.sam2.sam2_memory_attention import (
+    SAM2MemoryAttention as SAM2MemoryAttention,
+)
+from keras_hub.src.models.sam2.sam2_memory_encoder import (
+    SAM2MemoryEncoder as SAM2MemoryEncoder,
+)
 from keras_hub.src.models.segformer.segformer_image_converter import (
     SegFormerImageConverter as SegFormerImageConverter,
 )
